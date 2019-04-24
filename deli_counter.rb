@@ -9,10 +9,10 @@ def line(deli)
 end
 
 def line_position(deli)
+  counter = 0
 deli.each do |name|
-  counter = 1
+  counter += 1
   print "#{counter}. #{name}"
-  counter += 1 
 end
 end
 
