@@ -9,5 +9,8 @@ def line(deli)
 end
 
 def take_a_number(deli, new_customer)
-  puts "#{new_customer}"
+  if deli.length == 0 
+    deli << new_customer
+  end
+  puts "Welcome, #{new_customer}. You are number #{deli.length} in line."
 end 
