@@ -8,9 +8,8 @@ def line(deli)
   end
 end
 
-def take_a_number(deli, "new_customer")
-  if deli.length == 0 
-    deli << new_customer
+def take_a_number(deli, new_customer)
+  deli << new_customer
   end
   puts "Welcome, #{new_customer}. You are number #{deli.length} in line."
 end 
