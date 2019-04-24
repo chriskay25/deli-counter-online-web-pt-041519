@@ -10,7 +10,6 @@ end
 
 def take_a_number(deli, new_customer)
   deli << new_customer
-  end
   puts "Welcome, #{new_customer}. You are number #{deli.length} in line."
 end 
 
