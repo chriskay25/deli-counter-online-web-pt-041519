@@ -15,6 +15,9 @@ def take_a_number(deli, new_customer)
   puts "Welcome, #{new_customer}. You are number #{deli.length + 1} in line."
 end 
 
-def now_serving
-  
+def now_serving(deli)
+  if deli.length == 0 
+    puts "There is nobody waiting to be served!"
+  else 
+    puts "#{deli[0] "
 end
